@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="css/icon-font.css">
+        <link rel="stylesheet" href="css/fonts/web-fonts-with-css/css/fontawesome-all.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+      
+        <title>Kleverton K. | Desenvolvedor Front-end</title>
+    </head>
+    <body>
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle" >
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+            <div class="navigation__background">&nbsp;</div>
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#section-projects" onclick="fechar()" class="navigation__link"><span>01</span>Projetos</a></li>
+                    <li class="navigation__item"><a href="#section-knowledge" onclick="fechar()" class="navigation__link"><span>02</span>Conhecimentos</a></li>
+                    <li class="navigation__item"><a href="#section-online" onclick="fechar()" class="navigation__link"><span>03</span>Projetos Online</a></li>
+                    <li class="navigation__item"><a href="#section-courses" onclick="fechar()" class="navigation__link"><span>04</span>Formação e cursos</a></li>
+                    <li class="navigation__item"><a href="#section-contact" onclick="fechar()" class="navigation__link"><span>05</span>Entre em contato</a></li>
+                </ul>
+            </nav>
+        </div>
+        <header class="header">
+            <div class="header__logo-box">
+                <img src="img/logo-white.png" alt="Logo" class="header__logo">
+            </div>
+
+            <div class="header__text-box">
+                <h1 class="heading-primary">
+                    <span class="heading-primary--sub1">KLEVERTON&nbsp;k.</span>
+                    <span class="heading-primary--sub2">Desenvolvedor FRONT-END</span>
+                </h1>
+
+                <a href="#section-projects" class="btn btn--white btn--animated">Projetos realizados</a>
+            </div>
+        </header>
+        <main>
+            <section class="section-about" id="section-projects">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secoundary">
+                        projetos
+                    </h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-1-of-2">
+                        <h3 class="heading-tertiary u-margin-bottom-small">Projetos de grande porte</h3>
+                        <p class="paragraph">Criando novos padrões e páginas aos sites de grande porte como <a class="hyperlink" href="">Hostinger Brasil</a> e <a class="hyperlink" href="">Weblink</a> sempre visando um layout simples e agradável para os acessantes.</p>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Projetos de pequeno porte</h3>
+                        <p class="paragraph">Entendendo a solução para o pequeno empresário ou um projeto inicial, sempre pensando na responsividade e identidade visual para agradar os olhos de quem procura algo além do comum. como o caso do site <a class="hyperlink" href="">RK Papel</a></p>
+                        <!--a href="#" class="btn-text">Learn more &rarr;</a-->
+                    </div>
+                    <div class="col-1-of-2">
+                        <div class="composition">
+
+                            <img srcset="img/customers/small-hostinger-br.jpg 500w, img/customers/hostinger-br.jpg 1506w"
+                                 sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 500px"
+                                 alt="Hostinger" 
+                                 class="composition__photo composition__photo--p1"
+                                 src="img/customers/hostinger-br.jpg">
+                            
+                            <img srcset="img/customers/small-rkpapel-br.jpg 500w, img/customers/rkpapel-br.jpg 1503w"
+                                 sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 500px"
+                                 alt="RK-papel" 
+                                 class="composition__photo composition__photo--p2"
+                                 src="img/customers/rkpapel-br.jpg">
+
+                            <img srcset="img/customers/small-weblink-br.jpg 500w, img/customers/weblink-br.jpg 1476w"
+                                 sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 500px"
+                                 alt="WebLink" 
+                                 class="composition__photo composition__photo--p3"
+                                 src="img/customers/weblink-br.jpg">
+
+                            <!--img src="img/customers/hostinger-br.png" alt="Hostinger" class="composition__photo composition__photo--p1">
+                            <img src="img/customers/rkpapel-br.png" alt="RK-papel" class="composition__photo composition__photo--p2">
+                            <img src="img/customers/weblink-br.png" alt="WebLink" class="composition__photo composition__photo--p3"-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-features" id="section-knowledge">
+                <div class="u-center-text u-margin-bottom-big">
+                  <h2 class="heading-secoundary heading-secoundary__white">Conhecimentos</h2>
+                </div>
+                <div class="row">
+ 
+                  <div class="col-1-of-3">
+                    <div class="feature-box">
+                      <i class="feature-box__icon fab fa-html5"></i>            
+                      <h3 class="heading-tertiary u-margin-bottom-small">HTML 5</h3>
+                      <p class="feature-box__text">Utilizando do poder da nova versão do HTML, linguagem mais básica para organizar os blocos de informações do seu site. O esqueleto de qualquer site online atualmente, desde um site de grande porte como o da Hostinger Brasil, como o da RK Papel de Parede Líquido.</p>
+                      <h5 class="feature-box__text u-margin-top-small">nível de conhecimento</h5>
+                      <div class="feature-box__meter">
+                        <span style="width: 90%"></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-1-of-3">
+                    <div class="feature-box">
+                      <i class="feature-box__icon fab fa-css3"></i>              
+                      <h3 class="heading-tertiary u-margin-bottom-small">CSS 3</h3>
+                      <p class="feature-box__text">Com essa linguagem de desenvolvimento front-end poderosa, fica cada vez mais simples e prático criar layouts simples, bonitos e intuitivos, aliando-se das possibilidades que o framework bootstrap possibilita sem contar a vasta gama de ícones disponíveis online.</p>
+                      <h5 class="feature-box__text u-margin-top-small">nível de conhecimento</h5>
+                      <div class="feature-box__meter">
+                        <span style="width: 80%"></span>
+                      </div>
+                    </div>
+                  </div>
+                    
+                  <div class="col-1-of-3">
+                    <div class="feature-box">
+                      <i class="feature-box__icon fab fa-js"></i>            
+                      <h3 class="heading-tertiary u-margin-bottom-small">JavaScript</h3>
+                      <p class="feature-box__text">Com esta linguagem de programação fica muito mais fácil criar animações, funções que processam dados e apresentam a quem acessar seu site, se utilizar a biblioteca JQuery que ja trás muitas das funções prontas fica ainda mais rápido e fácil contruir elementos dinâmicos.</p>
+                      <h5 class="feature-box__text u-margin-top-small">nível de conhecimento</h5>
+                      <div class="feature-box__meter">
+                        <span style="width: 75%"></span>
+                      </div>
+                    </div>
+                  </div>
+ 
+                </div>
+
+                <div class="row">
+
+                  <div class="col-1-of-3">
+                    <div class="feature-box">
+                      <i class="feature-box__icon fab fa-angular"></i>             
+                      <h3 class="heading-tertiary u-margin-bottom-small">Angular JS</h3>
+                      <p class="feature-box__text">Com este framwork baseado em JavaScript as possibilidades aumentam muito. Podendo-se criar elementos dinânmicos e estruturas mais complexas do que somente usando JavaScript. Permite o manejamento de dados de forma mais independente.</p>
+                      <h5 class="feature-box__text u-margin-top-small">nível de conhecimento</h5>
+                      <div class="feature-box__meter">
+                        <span style="width: 45%"></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-1-of-3">
+                    <div class="feature-box">
+                      <i class="feature-box__icon fab fa-php"></i>            
+                      <h3 class="heading-tertiary u-margin-bottom-small">PHP</h3>
+                      <p class="feature-box__text">Sendo a linguagem de programação voltada para comunicação com servidores mais utilizada da atualidade possibilita uma conexão mais segura ao banco de dados entre outras funções como envio de e-mails através de um formulário do site.</p>
+                      <h5 class="feature-box__text u-margin-top-small">nível de conhecimento</h5>
+                      <div class="feature-box__meter">
+                        <span style="width: 30%"></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-1-of-3">
+                    <div class="feature-box">
+                      <i class="feature-box__icon fab fa-wordpress-simple"></i>              
+                      <h3 class="heading-tertiary u-margin-bottom-small">Wordpress</h3>
+                      <p class="feature-box__text">Plataforma usada em grande parte dos casos por blogs e e-commerces, com uma interface simples e ideal para jornalistas e pessoas que desejam começar a por seu negócio ou idéias na web, com temas lindos e interativos e mil possibilidades.</p>
+                      <h5 class="feature-box__text u-margin-top-small">nível de conhecimento</h5>
+                      <div class="feature-box__meter">
+                        <span style="width: 60%"></span>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+            </section>
+            <section class="section-tours" id="section-online"> 
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secoundary">Projetos Online</h2>
+                </div>
+                <div class="row">
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                               <div class="card__picture card__picture--1">
+                                   &nbsp;
+                               </div>
+                               <h4 class="card__heading ">
+                                    <span class="card__heading-span card__heading-span--1">
+                                        RK Papel Líquido
+                                    </span>
+                               </h4>
+                               <div class="card__details">
+                                   <ul>
+                                       <li>Site de Pequeno Porte</li>
+                                       <li>105 Visitas Semanais</li>
+                                       <li>Criado em WordPress</li>
+                                       <li>Otimização de Imagens</li>
+                                       <li>Layout Intuitivo</li>
+                                   </ul>
+                               </div>
+
+                            </div>
+                            <div class="card__side card__side--back card__side--back-1">
+                               <div class="card__cta">
+                                   <a href="https://rkpapel.com/" target="_blank" class="btn btn--white">Visite!</a>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                               <div class="card__picture card__picture--2">
+                                   &nbsp;
+                               </div>
+                               <h4 class="card__heading ">
+                                    <span class="card__heading-span card__heading-span--2">
+                                        Hostinger Brasil
+                                    </span>
+                               </h4>
+                               <div class="card__details">
+                                   <ul>
+                                       <li>Site de Grande Porte</li>
+                                       <li>+ 5000 visitas por dia</li>
+                                       <li>HTML5 | CSS3 | PHP</li>
+                                       <li>Imagens Otimizadas</li>
+                                       <li>Layout em Blocos e Sessões</li>
+                                   </ul>
+                               </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-2">
+                               <div class="card__cta">
+                                   <a href="https://www.hostinger.com.br/" target="_blank" class="btn btn--white">Visite!</a>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                               <div class="card__picture card__picture--3">
+                                   &nbsp;
+                               </div>
+                               <h4 class="card__heading ">
+                                    <span class="card__heading-span card__heading-span--3">
+                                        Weblink Hospedagem
+                                    </span>
+                               </h4>
+                               <div class="card__details">
+                                   <ul>
+                                       <li>Site de Grande Porte</li>
+                                       <li>+ 2000 visitas por dia</li>
+                                       <li>HTML5 | CSS3 | PHP</li>
+                                       <li>Imagens Otimizadas</li>
+                                       <li>Layout em Blocos e Sessões</li>
+                                   </ul>
+                               </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-3">
+                               <div class="card__cta">
+                                   <a href="https://www.weblink.com.br/" target="_blank" class="btn btn--white">Visite!</a>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--div class="u-center-text u-margin-top-huge">
+                    <a href="#" class="btn btn--green">discover all tours</a>
+                </div-->
+            </section>
+            <section class="section-stories" id="section-courses"> 
+                <div class="bg-video">
+                    <video class="bg-video__content" autoplay muted loop>
+                        <source src="img/video.mp4" type="video/mp4">
+                        <source src="img/video.webm" type="video/webm">
+                            Seu navegador não suporta este tipo de vídeo
+                    </video>
+                </div>
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secoundary">
+                        formação e cursos
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="story">
+                        <figure class="story__shape">
+                            <img src="img/estacio.jpg" alt="Person on a tour" class=" story__img">
+                            <figcaption class="story__caption">Estácio de sá <br> SC</figcaption>
+                        </figure>
+                        <div class="story__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small">Centro universitário estácio de sá SC  |  01/2013 á 01/2015</h3>
+                            <p>O Curso de Jogos Digitais me fez entender como a estrutura de programação funciona, como o navegador entende o que o desenvolvedor faz e mais do que isso me deu a base para desbravar este mundo de infinitas possibilidades que o desenvolvimento possibilita.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="story">
+                        <figure class="story__shape">
+                            <img src="img/udemy.png" alt="udemy logo" class=" story__img">
+                            <figcaption class="story__caption">Cursos Udemy</figcaption>
+                        </figure>
+                        <div class="story__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small">Criação e Desenvolvimento de sites</h3>
+                            <p>O curso engloba uma variedade de informação voltada para o desenvolvimento de sites dinâmicos e sistemas básicos com possibiliade de escalonamento, uso de tecnologias como AngularJS, pré-compiladores como sass e less fazem parte do conteúdo do curso, maestria com linguagens de desenvolvimento básicas como HTML5, CSS3 e JS, assim como frameworks como jQuery e d3.JS.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--div class="u-center-text u-margin-top-huge">
+                    <a href="#" class="btn-text">read all stories &rarr;</a>
+                </div-->
+            </section>
+            <section class="section-book" id="section-contact">
+                <div class="row">
+                    <div class="book">
+                        <div class="book__form">
+                            <div class="u-margin-bottom-medium">
+                                <h2 class="heading-secoundary">Entre em contato</h2>
+                            </div>
+                            <form action="#" class="form">
+                                <div class="form__group">
+                                    <input type="text" class="form__input" placeholder="Nome completo" id="name" required>
+                                    <label for="name" class="form__label">Nome completo</label>
+                                </div>
+                                <div class="form__group">
+                                    <input type="email" class="form__input" placeholder="Endereço de email" id="email" required>
+                                    <label for="email" class="form__label">Endereço de e-mail</label>
+                                </div>
+                                <div class="form__group u-margin-bottom-medium">
+                                  <div class="form__group">
+                                    <p>Qual o tamnaho do projeto que você tem em mente?</p>
+                                  </div>
+                                    <div class="form__radio-group">
+                                        <input type="radio" class="form__radio-input" id="small" name="group-size">
+                                        <label for="small" class="form__radio-label">
+                                            <span class="form__radio-button"></span>
+                                            Pequeno porte
+                                        </label>
+                                    </div>
+                                    <div class="form__radio-group">
+                                        <input type="radio" class="form__radio-input" id="large" name="group-size">
+                                        <label for="large" class="form__radio-label">
+                                            <span class="form__radio-button"></span>
+                                            Grande porte
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form_group">
+                                    <button class="btn btn--green" >Enviar &rarr;</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__logo-box">
+
+                <picture class="footer__logo">
+                  <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x"
+                          media="(max-width: 37.5em)">
+                  <img srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" 
+                       alt="Full logo" 
+                       src="img/logo-green-small-2x.png">
+                </picture>
+            </div>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="footer__navigation">
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#section-projects" class="footer__link">Projetos</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#section-knowledge" class="footer__link">Conhecimentos</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#section-online" class="footer__link">Projetos Online</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#section-courses" class="footer__link">Formação</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#section-contact" class="footer__link">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <p class="footer__copyright">
+                        Tema criado por <a href="#section-projects" class="footer__link">Kleverton Kulmann</a>, baseado no thema de <a href="https://codingheroes.io/" class="footer__link">Jonas.io</a> Todos os Direitos reservados
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="img/nat-8.jpg" alt="" class="popup__img">
+                    <img src="img/nat-9.jpg" alt="" class="popup__img">
+                </div>
+                <div class="popup__right">
+                    <a href="#section-online" class="popup__close">&times;</a>
+                    <h2 class="heading-secoundary u-margin-bottom-small">Start Booking now</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">important &ndash; please read these terms before booking</h3>
+                    <p class="popup__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque mollitia neque placeat, doloremque nostrum velit hic quis possimus saepe illum. Est similique amet magnam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque mollitia neque placeat, doloremque nostrum velit hic quis possimus saepe illum. Est similique amet magnam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque mollitia neque placeat, doloremque nostrum velit hic quis possimus saepe illum. Est similique amet magnam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque mollitia neque placeat, doloremque nostrum velit hic quis possimus saepe illum. Est similique amet magnam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque mollitia neque placeat, doloremque nostrum velit hic quis possimus saepe illum. Est similique amet magnam.</p>
+                    <a href="#" class="btn btn--green">Book now</a>
+                </div>
+            </div>
+        </div>
+
+        <!--section class="grid-test">
+            <div class="row">
+                <div class="col-1-of-2">
+                    col 1 of 2
+                </div>
+                <div class="col-1-of-2">
+                    col 1 of 2
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-3">
+                    col 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    col 1 of 3
+                </div>
+                <div class="col-1-of-3">
+                    col 1 of 3
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-3">
+                    col 1 of 3
+                </div>
+                <div class="col-2-of-3">
+                    col 2 of 3
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-4">
+                    col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    col 1 of 4
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-4">
+                    col 1 of 4
+                </div>
+                <div class="col-1-of-4">
+                    col 1 of 4
+                </div>
+                <div class="col-2-of-4">
+                    col 2 of 4
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-of-4">
+                    col 1 of 4
+                </div>
+                <div class="col-3-of-4">
+                    col 3 of 4
+                </div>
+            </div>
+        </section-->
+
+<script>
+function fechar() {
+    document.getElementById("navi-toggle").checked = false;
+}
+</script>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+<script>
+  // Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+
+</script>
+    </body>
+</html>
